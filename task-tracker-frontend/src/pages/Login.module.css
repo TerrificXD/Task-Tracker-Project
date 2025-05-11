@@ -1,0 +1,120 @@
+.loginContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #e0f7fa, #f5f5f5); /* Rough equivalent */
+    padding: 16px; /* Equivalent to px-4 */
+  }
+  
+  .loginCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.75rem; /* Basic rounded-lg */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Rough shadow-2xl */
+    overflow: hidden;
+    max-width: 640px; /* Roughly equivalent to max-w-xl */
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) { /* Equivalent to md: */
+    .loginCard {
+      flex-direction: row;
+    }
+  }
+  
+  .illustrationContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f2f1; /* Equivalent to bg-blue-100 */
+    padding: 24px; /* Equivalent to p-6 */
+  }
+  
+  .illustration {
+    max-width: 100%;
+    height: auto;
+    width: 288px; /* Equivalent to w-72 */
+  }
+  
+  @media (min-width: 768px) { /* Equivalent to md: */
+    .illustration {
+      width: 320px; /* Equivalent to md:w-80 */
+    }
+  }
+  
+  .loginForm {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px; /* Equivalent to p-8 */
+    gap: 20px; /* Equivalent to gap-5 */
+  }
+  
+  .title {
+    font-size: 1.875rem; /* Equivalent to text-2xl */
+    font-weight: bold; /* Equivalent to font-bold */
+    color: #374151; /* Equivalent to text-gray-800 */
+    text-align: center;
+    margin-bottom: 8px; /* Equivalent to mb-2 */
+  }
+  
+  .description {
+    text-align: center;
+    color: #6b7280; /* Equivalent to text-gray-500 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    margin-bottom: 16px; /* Equivalent to mb-4 */
+  }
+  
+  .errorMessage {
+    color: #dc2626; /* Equivalent to text-red-500 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    font-style: italic; /* Equivalent to italic */
+    margin-bottom: 16px; /* Equivalent to mb-4 */
+  }
+  
+  .input {
+    border: 1px solid #d1d5db; /* Equivalent to border border-gray-300 */
+    padding: 12px 16px; /* Equivalent to px-4 py-3 */
+    border-radius: 0.375rem; /* Equivalent to rounded-md */
+    outline: none; /* Equivalent to focus:outline-none */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: #60a5fa; /* Equivalent to focus:ring-blue-400 */
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* Equivalent to focus:ring-2 focus:ring-blue-400 */
+  }
+  
+  .loginButton {
+    background-color: #2563eb; /* Equivalent to bg-blue-600 */
+    color: #fff; /* Equivalent to text-white */
+    padding: 12px; /* Equivalent to py-3 */
+    border-radius: 0.375rem; /* Equivalent to rounded-md */
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: 500; /* Equivalent to font-semibold */
+    cursor: pointer;
+  }
+  
+  .loginButton:hover {
+    background-color: #1d4ed8; /* Equivalent to hover:bg-blue-700 */
+  }
+  
+  .signupLink {
+    text-align: center;
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #6b7280; /* Equivalent to text-gray-500 */
+  }
+  
+  .signupLink a {
+    color: #1e40af; /* Equivalent to text-blue-600 */
+    text-decoration: underline; /* Equivalent to hover:underline */
+  }
+  
+  .signupLink a:hover {
+    color: #172554; /* Implicit hover color */
+  }

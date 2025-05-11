@@ -1,0 +1,64 @@
+.dashboardContainer {
+    padding: 24px; /* Equivalent to p-6 */
+    max-width: 1152px; /* Roughly equivalent to max-w-6xl */
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2.25rem; /* Equivalent to text-3xl */
+    font-weight: bold; /* Equivalent to font-bold */
+    margin-bottom: 16px; /* Equivalent to mb-4 */
+    color: #374151; /* Equivalent to text-gray-800 */
+  }
+  
+  .description {
+    color: #6b7280; /* Equivalent to text-gray-600 */
+    font-size: 1.125rem; /* Roughly equivalent to text-lg */
+    margin-bottom: 24px; /* Equivalent to mb-6 */
+  }
+  
+  .getStartedSection {
+    background-color: #fff;
+    border-radius: 0.5rem; /* Basic rounded */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Basic shadow */
+    padding: 24px; /* Equivalent to p-6 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .getStartedTitle {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 500; /* Equivalent to font-semibold */
+    margin-bottom: 8px; /* Equivalent to mb-2 */
+    color: #4b5563; /* Equivalent to text-gray-700 */
+  }
+  
+  .projectLink {
+    color: #1e40af; /* Equivalent to text-blue-600 */
+    font-weight: 500; /* Equivalent to font-semibold */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+  }
+  
+  .projectLink:hover {
+    color: #172554; /* Equivalent to hover:text-blue-700 */
+    text-decoration: underline;
+  }
+  
+  .illustration {
+    width: 256px; /* Equivalent to w-64 */
+    margin-top: 24px; /* Equivalent to mt-6 */
+  }
+  
+  @media (min-width: 768px) { /* Equivalent to md: */
+    .getStartedSection {
+      flex-direction: row;
+    }
+  
+    .illustration {
+      margin-top: 0;
+      width: 50%;
+    }
+  }

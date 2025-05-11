@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+}
+
+.navLink {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  background-color: #ddd;
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  color: #f00;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.logoutButton:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 1rem;
+}
