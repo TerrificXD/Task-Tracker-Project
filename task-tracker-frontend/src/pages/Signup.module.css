@@ -1,0 +1,74 @@
+.signupContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9fafb; /* Equivalent to bg-gray-100 */
+    padding: 16px; /* Equivalent to p-4 */
+  }
+  
+  .signupCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Rough equivalent to shadow-lg */
+    border-radius: 0.5rem; /* Equivalent to rounded-lg */
+    overflow: hidden;
+  }
+  
+  @media (min-width: 768px) { /* Equivalent to md: */
+    .signupCard {
+      flex-direction: row;
+    }
+  }
+  
+  .illustration {
+    width: 100%;
+    max-width: 50%; /* Adjusted for better fit */
+    height: auto;
+    object-fit: cover;
+    padding: 32px; /* Equivalent to p-8 */
+  }
+  
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px; /* Equivalent to p-8 */
+    width: 100%;
+    max-width: 50%; /* Adjusted for better fit */
+    gap: 16px; /* Equivalent to gap-4 */
+  }
+  
+  .title {
+    font-size: 1.875rem; /* Equivalent to text-2xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .input {
+    border: 1px solid #d1d5db; /* Equivalent to border border-gray-300 */
+    padding: 12px 16px; /* Equivalent to px-4 py-2 */
+    border-radius: 0.375rem; /* Equivalent to rounded-md */
+    outline: none; /* Equivalent to focus:outline-none */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: #34d399; /* Green focus color */
+    box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.5); /* Green ring shadow */
+  }
+  
+  .registerButton {
+    background-color: #10b981; /* Equivalent to bg-green-500 */
+    color: #fff; /* Equivalent to text-white */
+    padding: 12px; /* Equivalent to py-2 */
+    border-radius: 0.375rem; /* Equivalent to rounded-md */
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .registerButton:hover {
+    background-color: #059669; /* Equivalent to hover:bg-green-600 */
+  }
